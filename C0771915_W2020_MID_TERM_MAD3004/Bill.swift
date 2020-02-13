@@ -12,7 +12,7 @@ class Bill
     var billId:String
     var billDate:Date
     var billType:String
-    var totalBill:Int
+  //  var totalBill:Int
     
     init(billId:String,billDate:Date,billType:String)
     {
@@ -21,10 +21,9 @@ class Bill
     self.billType=billType
     }
    func display()
-   {
-    print("Bill id is \(self.billId)")
-    print("Bill Date is \(self.billDate)")
-    print("Bill Type is \(self.billType)")
-    print("total bill is \(self.totalBill)")
+    {
+     print("Bill id is \(self.billId)")
+     print("Bill Date is \(self.billDate)")
+     print("Bill Type is \(self.billType)")   // print("total bill is \(self.totalBill)")
     }
 }
